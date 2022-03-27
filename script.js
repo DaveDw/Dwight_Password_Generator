@@ -48,7 +48,7 @@ function generatePassword() {
 
 // Write password to the #password input
 function writePassword() {
- if (pLength.value < 8 || pLength > 128){
+ if (pLength.value < 8 || pLength.value > 128){
    alert("enter a valid password length");
    return;
  }
